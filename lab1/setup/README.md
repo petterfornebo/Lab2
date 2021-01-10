@@ -3,23 +3,29 @@
 | Lab 1: | Getting Started |
 | ---------------------    | --------------------- |
 | Subject:                 | DAT520 Distributed Systems |
-| Deadline:                | **January 23, 2021 23:59** |
-| Expected effort:         | 16-22 hours |
+| Deadline:                | **January 22, 2021 23:59** |
+| Expected effort:         | 15-30 hours |
 | Grading:                 | Pass/fail |
 | Submission:              | Individually |
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [The Linux Lab](#the-linux-lab)
-3. [Task: Sign up for Unix Account - Do It Now](#task-sign-up-for-unix-account---do-it-now)
-4. [The Missing Semester of Your CS Education by MIT](#the-missing-semester-of-your-cs-education-by-mit)
-5. [Additional Resources and Tips](#additional-resources-and-tips)
-6. [Task: Unix/Linux and Git Multiple-Choice Questions](#task-unixlinux-and-git-multiple-choice-questions)
-7. [Remote Login with Secure SHell (SSH)](#remote-login-with-secure-shell-(ssh))
-8. [Remote Access to the Linux Machines](#remote-access-to-the-linux-machines)
-9. [Task: Logging Into the Linux Lab and Setting Up Password-less Logins](#task-logging-into-the-linux-lab-and-setting-up-password-less-logins)
-10. [Submitting to Autograder](#submitting-to-autograder)
+- [Lab 1: Getting Started](#lab-1-getting-started)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [The Linux Lab](#the-linux-lab)
+    - [Task: Sign up for Unix Account - Do It Now](#task-sign-up-for-unix-account---do-it-now)
+  - [The Missing Semester of Your CS Education by MIT](#the-missing-semester-of-your-cs-education-by-mit)
+    - [Additional Resources and Tips](#additional-resources-and-tips)
+    - [Task: Unix/Linux and Git Multiple-Choice Questions](#task-unixlinux-and-git-multiple-choice-questions)
+  - [Remote Login with Secure SHell (SSH)](#remote-login-with-secure-shell-ssh)
+    - [Remote Access to the Linux Machines](#remote-access-to-the-linux-machines)
+    - [Task: Logging Into the Linux Lab and Setting Up Password-less Logins](#task-logging-into-the-linux-lab-and-setting-up-password-less-logins)
+      - [Generating a Key Pair on the Linux Lab](#generating-a-key-pair-on-the-linux-lab)
+      - [Setting up SSH Authentication on GitHub](#setting-up-ssh-authentication-on-github)
+      - [Cloning the Repository to the Linux Lab](#cloning-the-repository-to-the-linux-lab)
+      - [Generating a Token](#generating-a-token)
+  - [Submitting to Autograder](#submitting-to-autograder)
 
 ## Introduction
 

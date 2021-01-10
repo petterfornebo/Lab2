@@ -3,22 +3,24 @@
 | Lab 1: | Getting Started |
 | ---------------------    | --------------------- |
 | Subject:                 | DAT520 Distributed Systems |
-| Deadline:                | **January 23, 2021 23:59** |
-| Expected effort:         | 16-22 hours |
+| Deadline:                | **January 22, 2021 23:59** |
+| Expected effort:         | 15-30 hours |
 | Grading:                 | Pass/fail |
 | Submission:              | Individually |
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Go Resources](#go-resources)
-3. [Primary Resources](#primary-resources)
-4. [Additional Resources](#additional-resources)
-5. [Installing Go](#installing-go)
-6. [Tasks](#tasks)
-7. [Task 1: Exercises from Tour of Go](#task-1-exercises-from-tour-of-go)
-8. [Task 2: Go Language Questions](#task-2-go-language-questions)
-9. [Task 3: Go Exercises](#task-3-go-exercises)
+- [Lab 1: Getting Started](#lab-1-getting-started)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Go Resources](#go-resources)
+    - [Primary Resources](#primary-resources)
+    - [Additional Resources](#additional-resources)
+  - [Installing Go](#installing-go)
+  - [Tasks](#tasks)
+    - [Task 1: Exercises from Tour of Go](#task-1-exercises-from-tour-of-go)
+    - [Task 2: Go Language Questions](#task-2-go-language-questions)
+    - [Task 3: Go Exercises](#task-3-go-exercises)
 
 ## Introduction
 

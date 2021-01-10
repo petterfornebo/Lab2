@@ -3,16 +3,18 @@
 | Lab 1: | Getting Started |
 | ---------------------    | --------------------- |
 | Subject:                 | DAT520 Distributed Systems |
-| Deadline:                | **January 23, 2021 23:59** |
-| Expected effort:         | 16-22 hours |
+| Deadline:                | **January 22, 2021 23:59** |
+| Expected effort:         | 15-30 hours |
 | Grading:                 | Pass/fail |
 | Submission:              | Individually |
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Lab Overview](#lab-overview)
-3. [Getting Started](#getting-started)
+- [Lab 1: Getting Started](#lab-1-getting-started)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Lab Overview](#lab-overview)
+  - [Getting Started](#getting-started)
 
 ## Introduction
 
