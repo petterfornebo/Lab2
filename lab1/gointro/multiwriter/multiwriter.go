@@ -1,7 +1,7 @@
 package multiwriter
 
 import (
-	"dat520/lab1/go/errors"
+	"dat520/lab1/gointro/errors"
 	"io"
 )
 

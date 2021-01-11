@@ -49,4 +49,4 @@ Enough said, let's get started!
 The first lab is composed by two parts:
 
 1. [Setup](setup/README.md) - Setting up the working environment and tools required by all labs.
-2. [Go](go/README.md) - Basic programming tasks to get you familiar with the Go programming language.
+2. [Go](gointro/README.md) - Basic programming tasks to get you familiar with the Go programming language.
