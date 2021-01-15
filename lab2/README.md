@@ -10,13 +10,6 @@
 
 ## Table of Contents
 
-1. [Table of Contents](#table-of-contents)
-2. [Introduction](#introduction)
-3. [UDP Echo Server](#udp-echo-server)
-4. [Web Server](#web-server)
-
-## Table of Contents
-
 1. [Introduction](https://github.com/dat520-2021/assignments/tree/master/lab2/README.md#introduction)
 2. [UDP Echo Server](https://github.com/dat520-2021/assignments/tree/master/lab2/README.md#udp-echo-server)
 3. [Web Server](https://github.com/dat520-2021/assignments/tree/master/lab2/README.md#web-server)
