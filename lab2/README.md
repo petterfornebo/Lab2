@@ -14,7 +14,7 @@
 2. [UDP Echo Server](https://github.com/dat520-2021/assignments/tree/master/lab2/README.md#udp-echo-server)
 3. [Web Server](https://github.com/dat520-2021/assignments/tree/master/lab2/README.md#web-server)
 4. [GRPC Server](grpc/README.md)
-5. [Networking Questions](networking/README.md)
+5. [Networking Questions](networking/network_questions.md)
 
 ## Introduction
 
