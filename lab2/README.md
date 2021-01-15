@@ -38,7 +38,7 @@ work on this lab assignment. You will also find this [web
 tutorial](https://golang.org/doc/articles/wiki/) highly useful.
 
 The third part of this lab is to implement an in-memory key-value storage using the `grpc` framework as described [here](grpc/README.md).
-Finally, the last part consists of answering the [questions](networking/README.md) related to the knowledge of networking programming you obtained while implementing the previous parts.
+Finally, the last part consists of answering the [questions](networking/network_questions.md) related to the knowledge of networking programming you obtained while implementing the previous parts.
 
 ## UDP Echo Server
 
