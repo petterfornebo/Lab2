@@ -31,3 +31,4 @@ type rot13Reader struct {
 func (r rot13Reader) Read(p []byte) (n int, err error) {
 	return 0, nil
 }
+func test() {}
