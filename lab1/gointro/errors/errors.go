@@ -1,7 +1,7 @@
 package errors
 
 /*
-Task 5: Errors needed for multiwriter
+Task: Errors needed for multiwriter
 
 You may find this blog post useful:
 http://blog.golang.org/error-handling-and-go

@@ -5,7 +5,7 @@ import (
 )
 
 /*
-Task 3: Rot 13
+Task: Rot 13
 
 This task is taken from http://tour.golang.org.
 

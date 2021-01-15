@@ -1,7 +1,7 @@
 package stringer
 
 /*
-Task 2: Stringers
+Task: Stringers
 
 One of the most ubiquitous interfaces is Stringer defined by the fmt package.
 

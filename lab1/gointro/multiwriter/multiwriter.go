@@ -6,13 +6,13 @@ import (
 )
 
 /*
-Task 6: WriteTo function for multiple writers
+Task: WriteTo function for multiple writers
 
 In this task you are going to implement a WriteTo function that writes to
 multiple writers. This is similar to the io.MultiWriter() function. However,
 the io.MultiWriter() function can only return a single error, and it is not
 possible to figure out which of the original writers caused the error. That
-is, you must use the Errors type that you developed for Task 4.
+is, you must use the Errors type that you developed for the `Task: Errors` under the `lab2/gointro/errors` package.
 
 Implement the WriteTo() function defined below.
 
