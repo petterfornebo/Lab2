@@ -43,7 +43,7 @@ No other changes to the text should be made.
 5. Which is the correct way to create a map `m` with the initial values `{"a": 1, "b": 2, "c": 3}`?
 
     - [ ] a) `m := make(map[string]int{"a": 1, "b": 2, "c": 3})`
-    - [ ] b) `m := map[string]int{"a": 1, "b": 2, "c": 3}`
+    - [X] b) `m := map[string]int{"a": 1, "b": 2, "c": 3}`
     - [ ] c) `m := make(map[string]int, []string{"a", "b", "c"}, []int{1, 2, 3})`
     - [ ] d) `m := {"a": 1, "b": 2, "c": 3}`
 
@@ -52,12 +52,12 @@ No other changes to the text should be made.
     - [ ] a) `for a, b in range slice {}`
     - [ ] b) `for each a : slice {}`
     - [ ] c) `for a, b := range slice {}`
-    - [ ] d) `for a := range slice[a] {}`
+    - [X] d) `for a := range slice[a] {}`
 
 7. Given a slice of integers, named `sli`. How would you append a number to this slice?
 
     - [ ] a) `sli.append(2)`
-    - [ ] b) `sli = append(sli, 2)`
+    - [X] b) `sli = append(sli, 2)`
     - [ ] c) `sli[len(sli)] = 2`
     - [ ] d) `append(sli, 2)`
     - [ ] e) `sli += 2`
@@ -66,7 +66,7 @@ No other changes to the text should be made.
 
     - [ ] a) `if _, hasKey := m["b"]; hasKey {`
     - [ ] b) `if "b" in m {`
-    - [ ] c) `if m.hasKey("b") {`
+    - [X] c) `if m.hasKey("b") {`
     - [ ] d) `if m["b"] {`
 
 9. Given the `ChessPiece` interface and `Bishop` struct below.
@@ -74,7 +74,7 @@ No other changes to the text should be made.
 
     - [ ] a) add the phrase `implements ChessPiece` after `struct`, then add the interface methods below the struct
     - [ ] b) write methods with the same names as defined in the `ChessPiece` interface with `Bishop` as the receiver
-    - [ ] c) write the required functions from the `ChessPiece` interface directly inside the `Bishop` struct
+    - [X] c) write the required functions from the `ChessPiece` interface directly inside the `Bishop` struct
     - [ ] d) none of the above
 
     ```go
@@ -97,7 +97,7 @@ No other changes to the text should be made.
     fmt.Print(s)
     ```
 
-    - [ ] a) `Hello`
+    - [X] a) `Hello`
     - [ ] b) `Hello, ¡¡¡`
     - [ ] c) `¡¡¡Hello, Gophers!!!`
     - [ ] d) `, Gophers!!!Hello¡¡¡`
@@ -106,5 +106,5 @@ No other changes to the text should be made.
 
     - [ ] a) `int`
     - [ ] b) `float`
-    - [ ] c) `float64`
+    - [X] c) `float64`
     - [ ] d) `string`
