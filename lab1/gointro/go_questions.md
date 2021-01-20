@@ -22,8 +22,8 @@ No other changes to the text should be made.
 3. Which of these is a correct way of declaring a slice?
 
     - [ ] a) `slice := [4]int{4, 5, 2, 1}`
-    - [X] b) `slice := {4, 5, 2, 1}int`
-    - [ ] c) `slice := [4, 5, 2, 1]int`
+    - [ ] b) `slice := {4, 5, 2, 1}int`
+    - [X] c) `slice := [4, 5, 2, 1]int`
     - [ ] d) `slice := []int{4, 5, 2, 1}`
 
 4. Given the `Person` struct below, which of these is the correct way of creating an instance of `Person`?
@@ -49,8 +49,8 @@ No other changes to the text should be made.
 
 6. How would you range over a slice?
 
-    - [X] a) `for a, b in range slice {}`
-    - [ ] b) `for each a : slice {}`
+    - [ ] a) `for a, b in range slice {}`
+    - [X] b) `for each a : slice {}`
     - [ ] c) `for a, b := range slice {}`
     - [ ] d) `for a := range slice[a] {}`
 
@@ -72,8 +72,8 @@ No other changes to the text should be made.
 9. Given the `ChessPiece` interface and `Bishop` struct below.
    How would you implement the `ChessPiece` interface on the piece `Bishop`?
 
-    - [X] a) add the phrase `implements ChessPiece` after `struct`, then add the interface methods below the struct
-    - [ ] b) write methods with the same names as defined in the `ChessPiece` interface with `Bishop` as the receiver
+    - [ ] a) add the phrase `implements ChessPiece` after `struct`, then add the interface methods below the struct
+    - [X] b) write methods with the same names as defined in the `ChessPiece` interface with `Bishop` as the receiver
     - [ ] c) write the required functions from the `ChessPiece` interface directly inside the `Bishop` struct
     - [ ] d) none of the above
 
@@ -104,7 +104,7 @@ No other changes to the text should be made.
 
 11. What is the type of `pi` in `pi := fmt.Sprintf("%.2f", 3.1415)`?
 
-    - [X] a) `int`
+    - [ ] a) `int`
     - [ ] b) `float`
-    - [ ] c) `float64`
+    - [X] c) `float64`
     - [ ] d) `string`

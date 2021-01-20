@@ -9,23 +9,23 @@ No other changes to the text should be made.
 
 1. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to remove the file `dir/file` by calling `rm dir/file`?
 
-    - [X] a) only write (`-w-`)
-    - [ ] b) only execute (`--x`)
+    - [ ] a) only write (`-w-`)
+    - [X] b) only execute (`--x`)
     - [ ] c) both write and execute (`-wx`)
     - [ ] d) all permissions (`rwx`)
 
 2. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to list its contents and permissions with the `ls -l` command?
 
-    - [X] a) only read (`r--`)
-    - [ ] b) only execute (`--x`)
+    - [ ] a) only read (`r--`)
+    - [X] b) only execute (`--x`)
     - [ ] c) both read and write (`rw-`)
     - [ ] d) both read and execute (`r-x`)
     - [ ] e) all permissions (`rwx`)
 
 3. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to create an empty file within it by calling `touch dir/empty_file`?
 
-    - [X] a) only write (`-w-`)
-    - [ ] b) only execute (`--x`)
+    - [ ] a) only write (`-w-`)
+    - [X] b) only execute (`--x`)
     - [ ] c) both read and write (`rw-`)
     - [ ] d) both read and execute (`r-x`)
     - [ ] e) both write and execute (`-wx`)
@@ -33,8 +33,8 @@ No other changes to the text should be made.
 
 4. Which is the shortest way to change the working directory to your home directory (assuming your username is `user`)?
 
-    - [X] a) `cd $HOME`
-    - [ ] b) `cd home`
+    - [ ] a) `cd $HOME`
+    - [X] b) `cd home`
     - [ ] c) `cd /home`
     - [ ] d) `cd /home/user`
     - [ ] e) `cd`
@@ -43,8 +43,8 @@ No other changes to the text should be made.
    The permissions for the file owner and the group which owns the file must remain unchanged.
    *HINT:* See the manual (`man chmod`) and [File permissions and attributes on the Arch Linux wiki](https://wiki.archlinux.org/index.php/Chmod).
 
-    - [X] a) `chmod o=r file`
-    - [ ] b) `chmod -wx file`
+    - [ ] a) `chmod o=r file`
+    - [X] b) `chmod -wx file`
     - [ ] c) `chmod +r-wx file`
     - [ ] d) `chmod o-wx file`
 
@@ -67,8 +67,8 @@ No other changes to the text should be made.
     done
     ```
 
-    - [X] a) moves the file `file` into `dir` if it has the `.py` file suffix
-    - [ ] b) moves the file `file` into `dir` if it has the `.py` suffix, then gives it the `.go` suffix
+    - [ ] a) moves the file `file` into `dir` if it has the `.py` file suffix
+    - [X] b) moves the file `file` into `dir` if it has the `.py` suffix, then gives it the `.go` suffix
     - [ ] c) renames any file within `dir` with the `.py` suffix to have the `.go` suffix
     - [ ] d) moves any files with a `.py` or `.go` suffix out of `dir`
 
@@ -89,7 +89,7 @@ No other changes to the text should be made.
     find . -type f -exec sed -i -e 's:[ ]Linux: GNU/Linux:' -e 's:^Linux:GNU/Linux:' {} \;
     ```
 
-    - [X] a) finds each file in this directory and replaces occurrences of `Linux` with `GNU/Linux`
-    - [ ] b) recursively finds each file in this directory or subdirectories and replaces occurrences of `Linux` with `GNU/Linux`
+    - [ ] a) finds each file in this directory and replaces occurrences of `Linux` with `GNU/Linux`
+    - [X] b) recursively finds each file in this directory or subdirectories and replaces occurrences of `Linux` with `GNU/Linux`
     - [ ] c) finds each file in this directory with the `.f` suffix and replaces occurrences of `Linux` with `GNU/Linux`
     - [ ] d) finds each flagged file in this directory and replaces occurrences of `Linux` with `GNU/Linux`
