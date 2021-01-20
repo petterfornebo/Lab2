@@ -10,15 +10,15 @@ No other changes to the text should be made.
    (Only Linux; macOS incompatible.)
 
     - [ ] a) `du -h -l .`
-    - [X] b) `du -h -–max-depth=1 .`
-    - [ ] c) `du --max-depth=1`
+    - [ ] b) `du -h -–max-depth=1 .`
+    - [X] c) `du --max-depth=1`
     - [ ] d) `du -h -a --max-depth=1 .`
 
 2. Which command continuously updates the displayed contents of a file named `file.txt` in real time, while its contents are being modified by some other process?
 
     - [ ] a) `cat file.txt`
-    - [X] b) `cat -f file.txt`
-    - [ ] c) `tail -f file.txt`
+    - [ ] b) `cat -f file.txt`
+    - [X] c) `tail -f file.txt`
     - [ ] d) `head -f file.txt`
 
 3. Which command removes a non-empty directory called `temp_files`?
@@ -45,8 +45,8 @@ No other changes to the text should be made.
 6. Which command will show the first 10 lines of `readme.txt`?
 
     - [ ] a) `cat -10 readme.txt`
-    - [X] b) `less -10 readme.txt`
-    - [ ] c) `tail readme.txt`
+    - [ ] b) `less -10 readme.txt`
+    - [X] c) `tail readme.txt`
     - [ ] d) `head readme.txt`
 
 7. Which command renames a file called `file1.txt` to `file2.txt`?
@@ -59,15 +59,15 @@ No other changes to the text should be made.
 8. Which command will show all symbolic links?
 
     - [ ] a) `ls -l`
-    - [X] b) `ls -a`
-    - [ ] c) `find . -type l -ls`
+    - [ ] b) `ls -a`
+    - [X] c) `find . -type l -ls`
     - [ ] d) `find . -type f -ls`
 
 9. Which command will display the contents of `readme.txt` with line numbers?
 
     - [ ] a) `cat readme.txt`
-    - [X] b) `cat -l readme.txt`
-    - [ ] c) `cat -A readme.txt`
+    - [ ] b) `cat -l readme.txt`
+    - [X] c) `cat -A readme.txt`
     - [ ] d) `cat -n readme.txt`
 
 10. Which command will count only the number of lines in `readme.txt`?
@@ -94,8 +94,8 @@ No other changes to the text should be made.
 13. Which command is used to change your password?
 
     - [ ] a) `password`
-    - [X] b) `pwd`
-    - [ ] c) `passwd`
+    - [ ] b) `pwd`
+    - [X] c) `passwd`
     - [ ] d) `pw`
 
 14. The command `history` will show the commands previously run in the terminal. For example
@@ -110,8 +110,8 @@ No other changes to the text should be made.
 
     How can you repeat command `ls -al`?
     - [ ] a) `repeat 1052`
-    - [X] b) `redo 1052`
-    - [ ] c) `!1052`
+    - [ ] b) `redo 1052`
+    - [X] c) `!1052`
     - [ ] d) `1052`
 
 15. What does the `less` command do?
@@ -139,8 +139,8 @@ No other changes to the text should be made.
 18. What command can be used to find the process(es) consuming the most CPU?
 
     - [ ] a) `iostat`
-    - [X] b) `netstat`
-    - [ ] c) `uptime`
+    - [ ] b) `netstat`
+    - [X] c) `uptime`
     - [ ] d) `top`
 
 19. What does the `screen` command do?
@@ -153,6 +153,6 @@ No other changes to the text should be made.
 20. Which command sorts `file.txt` according to descending numerical order?
 
     - [ ] a) `sort -r file.txt`
-    - [X] b) `sort file.txt`
-    - [ ] c) `sort -n file.txt`
+    - [ ] b) `sort file.txt`
+    - [X] c) `sort -n file.txt`
     - [ ] d) `sort -r -n file.txt`

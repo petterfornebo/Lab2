@@ -10,23 +10,23 @@ No other changes to the text should be made.
 1. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to remove the file `dir/file` by calling `rm dir/file`?
 
     - [ ] a) only write (`-w-`)
-    - [X] b) only execute (`--x`)
-    - [ ] c) both write and execute (`-wx`)
+    - [ ] b) only execute (`--x`)
+    - [X] c) both write and execute (`-wx`)
     - [ ] d) all permissions (`rwx`)
 
 2. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to list its contents and permissions with the `ls -l` command?
 
     - [ ] a) only read (`r--`)
-    - [X] b) only execute (`--x`)
-    - [ ] c) both read and write (`rw-`)
+    - [ ] b) only execute (`--x`)
+    - [X] c) both read and write (`rw-`)
     - [ ] d) both read and execute (`r-x`)
     - [ ] e) all permissions (`rwx`)
 
 3. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to create an empty file within it by calling `touch dir/empty_file`?
 
     - [ ] a) only write (`-w-`)
-    - [X] b) only execute (`--x`)
-    - [ ] c) both read and write (`rw-`)
+    - [ ] b) only execute (`--x`)
+    - [X] c) both read and write (`rw-`)
     - [ ] d) both read and execute (`r-x`)
     - [ ] e) both write and execute (`-wx`)
     - [ ] f) all permissions (`rwx`)
@@ -44,8 +44,8 @@ No other changes to the text should be made.
    *HINT:* See the manual (`man chmod`) and [File permissions and attributes on the Arch Linux wiki](https://wiki.archlinux.org/index.php/Chmod).
 
     - [ ] a) `chmod o=r file`
-    - [X] b) `chmod -wx file`
-    - [ ] c) `chmod +r-wx file`
+    - [ ] b) `chmod -wx file`
+    - [X] c) `chmod +r-wx file`
     - [ ] d) `chmod o-wx file`
 
 6. Select the following use of `chmod` which modifies the permissions of `file` such that:
@@ -68,8 +68,8 @@ No other changes to the text should be made.
     ```
 
     - [ ] a) moves the file `file` into `dir` if it has the `.py` file suffix
-    - [X] b) moves the file `file` into `dir` if it has the `.py` suffix, then gives it the `.go` suffix
-    - [ ] c) renames any file within `dir` with the `.py` suffix to have the `.go` suffix
+    - [ ] b) moves the file `file` into `dir` if it has the `.py` suffix, then gives it the `.go` suffix
+    - [X] c) renames any file within `dir` with the `.py` suffix to have the `.go` suffix
     - [ ] d) moves any files with a `.py` or `.go` suffix out of `dir`
 
 8. What does the following command sequence do?

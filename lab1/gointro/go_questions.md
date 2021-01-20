@@ -23,8 +23,8 @@ No other changes to the text should be made.
 
     - [ ] a) `slice := [4]int{4, 5, 2, 1}`
     - [ ] b) `slice := {4, 5, 2, 1}int`
-    - [X] c) `slice := [4, 5, 2, 1]int`
-    - [ ] d) `slice := []int{4, 5, 2, 1}`
+    - [ ] c) `slice := [4, 5, 2, 1]int`
+    - [X] d) `slice := []int{4, 5, 2, 1}`
 
 4. Given the `Person` struct below, which of these is the correct way of creating an instance of `Person`?
 
@@ -50,8 +50,8 @@ No other changes to the text should be made.
 6. How would you range over a slice?
 
     - [ ] a) `for a, b in range slice {}`
-    - [X] b) `for each a : slice {}`
-    - [ ] c) `for a, b := range slice {}`
+    - [ ] b) `for each a : slice {}`
+    - [X] c) `for a, b := range slice {}`
     - [ ] d) `for a := range slice[a] {}`
 
 7. Given a slice of integers, named `sli`. How would you append a number to this slice?
@@ -106,5 +106,5 @@ No other changes to the text should be made.
 
     - [ ] a) `int`
     - [ ] b) `float`
-    - [X] c) `float64`
-    - [ ] d) `string`
+    - [ ] c) `float64`
+    - [X] d) `string`
