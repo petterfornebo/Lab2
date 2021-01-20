@@ -1,5 +1,7 @@
 package errors
 
+import "fmt"
+
 /*
 Task: Errors needed for multiwriter
 
@@ -37,5 +39,26 @@ The first error + " (and 1 other error)"
 The first error + " (and X other errors)"
 */
 func (m Errors) Error() string {
-	return ""
+
+	j := 0
+	a := make(Errors, len(m))
+	if m == nil {
+		return "(0 errors)"
+	}
+	for i, err := range m {
+		if m[i] != nil {
+			a[j] = err
+			j++
+		}
+	}
+
+	if j == 1 {
+		return a[0].Error()
+	} else if j == 2 {
+		return a[0].Error() + " (and 1 other error)"
+	} else if j > 2 {
+		return a[0].Error() + fmt.Sprintf(" (and %v other errors)", j-1)
+	}
+
+	return "(0 errors)"
 }

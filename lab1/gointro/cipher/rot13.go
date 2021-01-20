@@ -29,6 +29,15 @@ type rot13Reader struct {
 }
 
 func (r rot13Reader) Read(p []byte) (n int, err error) {
-	return 0, nil
+	n, err = r.r.Read(p)
+
+	for i := 0; i < n; i++ {
+		if (p[i] >= 'A' && p[i] < 'N') || (p[i] >= 'a' && p[i] < 'n') { // Tests between the 13 first places in alphabet
+			p[i] = p[i] + 13 // Substitues 13 places in alphabet.
+		} else if (p[i] >= 'N' && p[i] <= 'Z') || (p[i] >= 'n' && p[i] <= 'z') { // Tests between the 13 last places in alphabet
+			p[i] = p[i] - 13 // Substitues 13 places in alphabet.
+		}
+	}
+	return n, err
 }
 func test() {}
