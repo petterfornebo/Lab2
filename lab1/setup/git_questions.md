@@ -34,7 +34,7 @@ No other changes to the text should be made.
 
     - [ ] a) `git reset HEAD README.md`
     - [X] b) `git reset --hard README.md`
-    - [X] c) `git checkout -- README.md`
+    - [ ] c) `git checkout -- README.md`
     - [ ] d) `git revert README.md`
 
 4. Why do we add `course-assignments` as a remote repository in when setting up our Git for this course (command sequence listed below)?
@@ -46,9 +46,9 @@ No other changes to the text should be made.
     ```
 
     - [ ] a) so that we automatically pull changes from the `assignments` repo into the `username-labs` repo with `git pull` when they become available
-    - [ ] b) so that our changes to the `username-labs` repo are also reflected in the `assignments` repo
+    - [X] b) so that our changes to the `username-labs` repo are also reflected in the `assignments` repo
     - [ ] c) so that we can pull updates from the `assignments` repo, such as new or updated lab assignments
-    - [X] d) so that the initial state of our `username-labs` repo will be the same as the state of the `assignments` repo
+    - [ ] d) so that the initial state of our `username-labs` repo will be the same as the state of the `assignments` repo
 
 5. If the remote repositories are set up as in the following segment, how would you pull changes from the `dat520-2021/assignments` repo into the `dat520-2021/student-labs` repo you are working in?
 
@@ -59,8 +59,8 @@ No other changes to the text should be made.
     origin              git@github.com:dat520-2021/student-labs.git (push)
     ```
 
-    - [X] a) `git pull dat520-2021/assignments.git dat520-2021/student-labs.git`
-    - [ ] b) `git pull course-assignments master`
+    - [ ] a) `git pull dat520-2021/assignments.git dat520-2021/student-labs.git`
+    - [X] b) `git pull course-assignments master`
     - [ ] c) `git pull master course-assignments`
     - [ ] d) `git pull course-assignments origin`
     - [ ] e) `git pull`
@@ -98,8 +98,8 @@ No other changes to the text should be made.
     *.py
     ```
 
-    - [X] a) `go/.DS_Store`, `go/main.go` and `notes/work-notes.md`
-    - [ ] b) `go/main.go`, `notes/work-notes.md` and `python/main.py`
+    - [ ] a) `go/.DS_Store`, `go/main.go` and `notes/work-notes.md`
+    - [X] b) `go/main.go`, `notes/work-notes.md` and `python/main.py`
     - [ ] c) `go/main.go` and `notes/work-notes.md`
     - [ ] d) `go/.DS_Store` and `go/main.go`
 
@@ -111,12 +111,12 @@ No other changes to the text should be made.
 
 9. Which command lets you see all changes made to `file.txt` since the latest commit?
 
-    - [X] a) `git diff file.txt`
-    - [ ] b) `git diff HEAD file.txt`
+    - [ ] a) `git diff file.txt`
+    - [X] b) `git diff HEAD file.txt`
     - [ ] c) `git diff --cached file.txt`
 
 10. When you run `git pull` and get a merge conflict, which of the below approaches is most suited to resolving the merge conflict?
 
-    - [X] a) make a backup by copying the directory to another location, delete the original directory, clone the repository again, then manually copy changes into the newly cloned repository from the backup
-    - [ ] b) make a backup by copying the directory to another location, revert the repository back to a previous commit without any conflicts, then manually copy changes into the repository while avoiding conflicts
+    - [ ] a) make a backup by copying the directory to another location, delete the original directory, clone the repository again, then manually copy changes into the newly cloned repository from the backup
+    - [X] b) make a backup by copying the directory to another location, revert the repository back to a previous commit without any conflicts, then manually copy changes into the repository while avoiding conflicts
     - [ ] c) fix the conflict by editing the conflicting files with a text editor, then remove the lines starting with `>>>>`, `====` and `<<<<` which were added by Git.
