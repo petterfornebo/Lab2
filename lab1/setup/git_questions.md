@@ -32,10 +32,10 @@ No other changes to the text should be made.
 
 3. How would you revert *unstaged* (not yet added with `git add`) changes to `README.md` in the current branch?
 
-    - [ ] a) `git reset HEAD README.md`
+    - [X] a) `git reset HEAD README.md`
     - [ ] b) `git reset --hard README.md`
     - [ ] c) `git checkout -- README.md`
-    - [X] d) `git revert README.md`
+    - [ ] d) `git revert README.md`
 
 4. Why do we add `course-assignments` as a remote repository in when setting up our Git for this course (command sequence listed below)?
 
@@ -100,8 +100,8 @@ No other changes to the text should be made.
 
     - [ ] a) `go/.DS_Store`, `go/main.go` and `notes/work-notes.md`
     - [ ] b) `go/main.go`, `notes/work-notes.md` and `python/main.py`
-    - [X] c) `go/main.go` and `notes/work-notes.md`
-    - [ ] d) `go/.DS_Store` and `go/main.go`
+    - [ ] c) `go/main.go` and `notes/work-notes.md`
+    - [X] d) `go/.DS_Store` and `go/main.go`
 
 8. Which command lets you see the changes made to `file.txt` relative to the staging area (i.e. unstaged changes to `file.txt`)?
 
