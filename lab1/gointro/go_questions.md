@@ -9,19 +9,19 @@ No other changes to the text should be made.
 
     - [ ] a) `1`
     - [ ] b) `nil`
-    - [ ] c) `0`
+    - [X] c) `0`
     - [ ] d) `NaN`
 
 2. What is the zero value of a slice?
 
-    - [ ] a) `[_]`
+    - [X] a) `[_]`
     - [ ] b) `[0]`
     - [ ] c) `nil`
     - [ ] d) `null`
 
 3. Which of these is a correct way of declaring a slice?
 
-    - [ ] a) `slice := [4]int{4, 5, 2, 1}`
+    - [X] a) `slice := [4]int{4, 5, 2, 1}`
     - [ ] b) `slice := {4, 5, 2, 1}int`
     - [ ] c) `slice := [4, 5, 2, 1]int`
     - [ ] d) `slice := []int{4, 5, 2, 1}`
@@ -30,7 +30,7 @@ No other changes to the text should be made.
 
     - [ ] a) `var p Person{firstName: "Johnny", shortName: "Bravo", age: 43}`
     - [ ] b) `p := new Person(firstName: "Johnny", shortName: "Bravo", age: 43)`
-    - [ ] c) `p := Person{firstName: "Johnny", shortName: "Bravo", age: 43}`
+    - [X] c) `p := Person{firstName: "Johnny", shortName: "Bravo", age: 43}`
     - [ ] d) `p Person := {firstName: "Johnny", shortName: "Bravo", age: 43}`
 
     ```go
