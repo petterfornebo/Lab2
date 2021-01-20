@@ -14,7 +14,7 @@ No other changes to the text should be made.
     git commit -a -m "description of changes"
     ```
 
-    - [ ] a) stages all changes to the repository and commits with the message "description of changes"
+    - [X] a) stages all changes to the repository and commits with the message "description of changes"
     - [ ] b) stages all changes to the repository and opens an editor to enter the commit message, which initially contains "description of changes"
     - [ ] c) stages changes to all files already tracked by Git which have been modified or deleted, and opens an editor to enter the commit message, which initially contains "description of changes"
     - [ ] d) stages changes to all files already tracked by Git which have been modified or deleted, and commits with the message "description of changes"
@@ -25,7 +25,7 @@ No other changes to the text should be made.
     git remote -v
     ```
 
-    - [ ] a) shows a list of remote repositories along with their URLs
+    - [X] a) shows a list of remote repositories along with their URLs
     - [ ] b) verifies that the remote repository exists
     - [ ] c) removes the reference to the remote repository and outputs all changes
     - [ ] d) sets the name of the remote repository to `v`
