@@ -27,16 +27,16 @@ No other changes to the text should be made.
     - [ ] a) only write (`-w-`)
     - [ ] b) only execute (`--x`)
     - [ ] c) both read and write (`rw-`)
-    - [X] d) both read and execute (`r-x`)
-    - [ ] e) both write and execute (`-wx`)
+    - [ ] d) both read and execute (`r-x`)
+    - [X] e) both write and execute (`-wx`)
     - [ ] f) all permissions (`rwx`)
 
 4. Which is the shortest way to change the working directory to your home directory (assuming your username is `user`)?
 
     - [ ] a) `cd $HOME`
     - [ ] b) `cd home`
-    - [X] c) `cd /home`
-    - [ ] d) `cd /home/user`
+    - [ ] c) `cd /home`
+    - [X] d) `cd /home/user`
     - [ ] e) `cd`
 
 5. Which of the following uses of `chmod` will remove the write and execute permissions to `file` for all users which are not the owner of `file` and are not part of the group which owns `file`?
