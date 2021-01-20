@@ -18,24 +18,24 @@ No other changes to the text should be made.
 
     - [ ] a) only read (`r--`)
     - [ ] b) only execute (`--x`)
-    - [X] c) both read and write (`rw-`)
-    - [ ] d) both read and execute (`r-x`)
+    - [ ] c) both read and write (`rw-`)
+    - [X] d) both read and execute (`r-x`)
     - [ ] e) all permissions (`rwx`)
 
 3. Which permission(s) (listed as `rwx` by `ls -l`) for the directory `dir` are required to create an empty file within it by calling `touch dir/empty_file`?
 
     - [ ] a) only write (`-w-`)
     - [ ] b) only execute (`--x`)
-    - [X] c) both read and write (`rw-`)
-    - [ ] d) both read and execute (`r-x`)
+    - [ ] c) both read and write (`rw-`)
+    - [X] d) both read and execute (`r-x`)
     - [ ] e) both write and execute (`-wx`)
     - [ ] f) all permissions (`rwx`)
 
 4. Which is the shortest way to change the working directory to your home directory (assuming your username is `user`)?
 
     - [ ] a) `cd $HOME`
-    - [X] b) `cd home`
-    - [ ] c) `cd /home`
+    - [ ] b) `cd home`
+    - [X] c) `cd /home`
     - [ ] d) `cd /home/user`
     - [ ] e) `cd`
 
@@ -45,8 +45,8 @@ No other changes to the text should be made.
 
     - [ ] a) `chmod o=r file`
     - [ ] b) `chmod -wx file`
-    - [X] c) `chmod +r-wx file`
-    - [ ] d) `chmod o-wx file`
+    - [ ] c) `chmod +r-wx file`
+    - [X] d) `chmod o-wx file`
 
 6. Select the following use of `chmod` which modifies the permissions of `file` such that:
    (1) the user that owns `file` has `rwx` permissions.

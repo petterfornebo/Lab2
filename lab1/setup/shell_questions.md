@@ -11,8 +11,8 @@ No other changes to the text should be made.
 
     - [ ] a) `du -h -l .`
     - [ ] b) `du -h -–max-depth=1 .`
-    - [X] c) `du --max-depth=1`
-    - [ ] d) `du -h -a --max-depth=1 .`
+    - [ ] c) `du --max-depth=1`
+    - [X] d) `du -h -a --max-depth=1 .`
 
 2. Which command continuously updates the displayed contents of a file named `file.txt` in real time, while its contents are being modified by some other process?
 
@@ -46,8 +46,8 @@ No other changes to the text should be made.
 
     - [ ] a) `cat -10 readme.txt`
     - [ ] b) `less -10 readme.txt`
-    - [X] c) `tail readme.txt`
-    - [ ] d) `head readme.txt`
+    - [ ] c) `tail readme.txt`
+    - [X] d) `head readme.txt`
 
 7. Which command renames a file called `file1.txt` to `file2.txt`?
 
@@ -67,8 +67,8 @@ No other changes to the text should be made.
 
     - [ ] a) `cat readme.txt`
     - [ ] b) `cat -l readme.txt`
-    - [X] c) `cat -A readme.txt`
-    - [ ] d) `cat -n readme.txt`
+    - [ ] c) `cat -A readme.txt`
+    - [X] d) `cat -n readme.txt`
 
 10. Which command will count only the number of lines in `readme.txt`?
 
@@ -140,8 +140,8 @@ No other changes to the text should be made.
 
     - [ ] a) `iostat`
     - [ ] b) `netstat`
-    - [X] c) `uptime`
-    - [ ] d) `top`
+    - [ ] c) `uptime`
+    - [X] d) `top`
 
 19. What does the `screen` command do?
 
@@ -154,5 +154,5 @@ No other changes to the text should be made.
 
     - [ ] a) `sort -r file.txt`
     - [ ] b) `sort file.txt`
-    - [X] c) `sort -n file.txt`
-    - [ ] d) `sort -r -n file.txt`
+    - [ ] c) `sort -n file.txt`
+    - [X] d) `sort -r -n file.txt`
