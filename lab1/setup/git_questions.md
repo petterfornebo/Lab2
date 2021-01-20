@@ -32,10 +32,10 @@ No other changes to the text should be made.
 
 3. How would you revert *unstaged* (not yet added with `git add`) changes to `README.md` in the current branch?
 
-    - [X] a) `git reset HEAD README.md`
+    - [ ] a) `git reset HEAD README.md`
     - [ ] b) `git reset --hard README.md`
     - [ ] c) `git checkout -- README.md`
-    - [ ] d) `git revert README.md`
+    - [X] d) `git revert README.md`
 
 4. Why do we add `course-assignments` as a remote repository in when setting up our Git for this course (command sequence listed below)?
 
