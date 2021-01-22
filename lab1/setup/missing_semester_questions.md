@@ -35,8 +35,8 @@ No other changes to the text should be made.
 
     - [ ] a) `cd $HOME`
     - [ ] b) `cd home`
-    - [ ] c) `cd /home`
-    - [X] d) `cd /home/user`
+    - [X] c) `cd /home`
+    - [ ] d) `cd /home/user`
     - [ ] e) `cd`
 
 5. Which of the following uses of `chmod` will remove the write and execute permissions to `file` for all users which are not the owner of `file` and are not part of the group which owns `file`?
