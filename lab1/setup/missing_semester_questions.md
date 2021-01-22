@@ -33,10 +33,10 @@ No other changes to the text should be made.
 
 4. Which is the shortest way to change the working directory to your home directory (assuming your username is `user`)?
 
-    - [ ] a) `cd $HOME`
+    - [X] a) `cd $HOME`
     - [ ] b) `cd home`
     - [ ] c) `cd /home`
-    - [X] d) `cd /home/user`
+    - [ ] d) `cd /home/user`
     - [ ] e) `cd`
 
 5. Which of the following uses of `chmod` will remove the write and execute permissions to `file` for all users which are not the owner of `file` and are not part of the group which owns `file`?
