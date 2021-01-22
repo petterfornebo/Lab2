@@ -33,8 +33,8 @@ No other changes to the text should be made.
 
 4. Which is the shortest way to change the working directory to your home directory (assuming your username is `user`)?
 
-    - [X] a) `cd $HOME`
-    - [ ] b) `cd home`
+    - [ ] a) `cd $HOME`
+    - [X] b) `cd home`
     - [ ] c) `cd /home`
     - [ ] d) `cd /home/user`
     - [ ] e) `cd`
