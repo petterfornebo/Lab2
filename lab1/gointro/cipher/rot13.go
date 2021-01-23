@@ -28,7 +28,7 @@ type rot13Reader struct {
 	r io.Reader
 }
 
-func (r rot13Reader) Read(p []byte) (n int, err error) {
+func (r rot13Reader) Read(p []byte) (n int, err error) { // This CODE was developed by assistance with Hans Martin Derås
 	n, err = r.r.Read(p)
 
 	for i := 0; i < n; i++ {

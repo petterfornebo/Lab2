@@ -38,7 +38,7 @@ The first error + " (and 1 other error)"
 
 The first error + " (and X other errors)"
 */
-func (m Errors) Error() string {
+func (m Errors) Error() string { // This CODE was developed by assistance with Hans Martin Derås
 
 	j := 0
 	a := make(Errors, len(m))
