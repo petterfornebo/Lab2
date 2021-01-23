@@ -29,15 +29,15 @@ that writer's index position.
 
 // WriteTo writes b to the provided writers, returns a slice of the number
 // of byte written to each writer, and a slice of errors, if any.
-func WriteTo(b []byte, writers ...io.Writer) (n []int, errs errors.Errors) { //THIS CODE WAS PARTIALLY BORROWED FROM
+func WriteTo(b []byte, writers ...io.Writer) (n []int, errs errors.Errors) { //THIS CODE WAS PARTIALLY BORROWED FROM STUDENT RUNE LIEN
 
-	//condition 1
+	// .1 
 	for _, writer := range writers { //Iterates over the content in the slice writers
 		numb, e := writer.Write(b) //Writes b []byte to each writer in the slice writers.
 
-		//condition 3
+		// .3
 		n = append(n, numb) //Adds the returned n from writer.Write(b) to the n slice
-		//condition 4
+		// .4
 		if numb < len(b) {
 			errs = append(errs, io.ErrShortWrite)
 			continue
@@ -45,10 +45,10 @@ func WriteTo(b []byte, writers ...io.Writer) (n []int, errs errors.Errors) { //T
 		errs = append(errs, e) //Adds the returned errs from writer.Write(b) to the errs slice
 	}
 
-	//condition 2
+	// .2
 	if len(writers) == 0 {
 		return []int{}, nil
 	}
 
-	return n, errs
+	return n []int, errs
 }
