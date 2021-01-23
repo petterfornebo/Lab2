@@ -35,5 +35,8 @@ func WriteTo(b []byte, writers ...io.Writer) (n []int, errs errors.Errors) { //T
 		return []int{}, nil
 	}
 
+	if errs.Error() == "(0 errors)" {
+		return n, nil
+	}
 	return n, errs
 }
