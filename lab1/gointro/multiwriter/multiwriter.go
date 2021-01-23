@@ -41,16 +41,6 @@ func WriteTo(b []byte, writers ...io.Writer) (n []int, errs errors.Errors) { //T
 
 		//condition 3
 		n = append(n, numb) //Adds the returned n from writer.Write(b) to the n slice
-		//condition 4
-		if numb < len(b) {
-			errs = append(errs, io.ErrShortWrite)
-			continue
-		}
-		errs = append(errs, e) //Adds the returned errs from writer.Write(b) to the errs slice
-	}
-	//condition 5
-	if errs.Error() == "(0 errors)" {
-		return n, nil
-	}
+	
 	return n, errs
 }
