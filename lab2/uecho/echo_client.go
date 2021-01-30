@@ -1,4 +1,4 @@
-package uecho
+package umain
 
 import (
 	"bufio"

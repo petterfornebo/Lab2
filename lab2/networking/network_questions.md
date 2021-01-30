@@ -6,7 +6,7 @@ Selecting more than one choice will result in zero points.
 No other changes to the text should be made.
 
 1. Which best describes TCP?
-    - [ ] a) Reliable, connection-oriented
+    - [X] a) Reliable, connection-oriented
     - [ ] b) Reliable, connectionless
     - [ ] c) Unreliable, connection-oriented
     - [ ] d) Unreliable, connectionless
