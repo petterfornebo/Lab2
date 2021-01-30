@@ -78,7 +78,7 @@ func (s *Server) fizzbuzz(w http.ResponseWriter, r *http.Request) {
 
 func (s *Server) lab2(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusMovedPermanently)
-	writeLogErr(w, "<a href=\"http://www.github.com/uis-dat520-s2019/assignments/tree/master/lab2\">Moved Permanently</a>.\n\n")
+	writeLogErr(w, "<a href=\"http://www.github.com/uis-dat520/labs/tree/master/lab2\">Moved Permanently</a>.\n\n")
 }
 
 func (s *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {

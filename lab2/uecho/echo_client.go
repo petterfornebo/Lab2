@@ -1,4 +1,4 @@
-package umain
+package main
 
 import (
 	"bufio"

@@ -1,7 +1,8 @@
 // Leave an empty line above this comment.
-package uecho
+package main
 
 import (
+	"log"
 	"net"
 	"strings"
 	"unicode"
@@ -14,6 +15,28 @@ type UDPServer struct {
 
 // UDPServer implements the UDP Echo Server specification found at
 // https://github.com/COURSE_TAG/assignments/tree/master/lab2/README.md#udp-echo-server
+
+func (u *UDPServer) ServeUDP() {
+	// TODO(student): Implement
+	buf := make([]byte, 65535)
+	defer u.conn.Close()
+
+	for {
+		n, raddr, err := u.conn.ReadFromUDP(buf)
+		if err != nil {
+			if socketIsClosed(err) {
+
+			}
+			log.Println("Reading packet...", err)
+			continue
+		}
+		err = u.handleCommand(buf[:n], raddr)
+		if err != nil {
+			log.Println(err)
+		}
+
+	}
+}
 func NewUDPServer(addr string) (*UDPServer, error) {
 	// TODO(student): Implement
 	var server UDPServer
