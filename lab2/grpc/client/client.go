@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/uis-dat520-s2019/assignments/lab2/grpc/proto"
+	"github.com/dat520-2021/petterfornebo-labs/tree/master/lab2/grpc/proto"
 	"google.golang.org/grpc"
 )
 
